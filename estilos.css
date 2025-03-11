@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu-horizontal {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-horizontal li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-horizontal a {
+    color: white;
+    text-decoration: none;
+}
+
+.caja-central {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ff6347;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.menu-vertical {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-vertical li {
+    margin: 10px 0;
+}
+
+.menu-vertical a {
+    color: white;
+    text-decoration: none;
+}
